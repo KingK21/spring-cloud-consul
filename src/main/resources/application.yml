@@ -6,4 +6,4 @@ spring:
       host: localhost
       port: 8500
   application:
-    name: javatechie
+    name: kenny

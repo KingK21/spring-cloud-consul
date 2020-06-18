@@ -15,7 +15,7 @@ public class SpringBootConsulApplication {
 	@Autowired
 	private MyConfig config;
 
-	@GetMapping("/getConfigData")
+	@GetMapping("/getConfig")
 	public MyConfig getConfiguration() {
 		return config;
 	}
